@@ -5,6 +5,9 @@
   ## Description
   Application consists on an Express.js API that uses sequelize to interact with MySQL database.
 
+  
+  ![Preview](assets/screenshots/Capture1.PNG)
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
