@@ -41,7 +41,7 @@ router.get('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
     const newCategoryData = await Category.create({
-      reader_id: req.body.reader_id,
+      product_id: req.body.product_id,
     });
     res.status(200).json(newCategoryData);
   } catch (err) {
@@ -78,7 +78,7 @@ router.delete('/:id', async (req, res) => {
     });
 
     if (!categoryData) {
-      res.status(404).json({ message: 'No library card found with that id!' });
+      res.status(404).json({ message: 'No category found with that id!' });
       return;
     }
 
