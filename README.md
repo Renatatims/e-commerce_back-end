@@ -1,4 +1,4 @@
-# e-Commerce Back End
+# e-Commerce Backend
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -69,4 +69,5 @@
   https://www.npmjs.com/package/mysql2, 
   https://www.npmjs.com/package/sequelize, 
   https://www.npmjs.com/package/dotenv
+  https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
  
